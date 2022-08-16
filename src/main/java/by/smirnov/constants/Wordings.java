@@ -14,7 +14,7 @@ public interface Wordings {
     String FILE_REPO = "txtfiles" + File.separator + "Vars.txt";
     String LOG_TXT = "txtfiles" + File.separator + "log.txt";
     String REPORT_TXT = "txtfiles" + File.separator + "Report.txt";
-    String BASENAME = "by.it.smirnov.calc.language.text";
+    String BASENAME = "src/main/resources.text";
     String TITLE_SHORT = "report.titleshort";
     String TITLE_LONG = "report.titlelong";
     String REPORT_END = "report.end";

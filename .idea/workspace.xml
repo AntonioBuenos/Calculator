@@ -4,47 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3df16a2c-cfb5-4a48-a765-fcb007d8bc21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/ConsoleRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/constants/Patterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/constants/Wordings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/entity/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/entity/Scalar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/entity/Var.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/entity/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/exception/CalcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/interfaces/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/interfaces/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/interfaces/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/language/text.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/language/text_be.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/language/text_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/language/text_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/language/text_jp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/language/text_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/report/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/report/BuilderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/report/LongReportBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/report/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/report/ReportPart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/report/ShortReportBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/repository/PersistentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/repository/VarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/LoggerODH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/ResManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/service/VarCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/util/PathGetter.java" afterDir="false" />
+    <list default="true" id="3df16a2c-cfb5-4a48-a765-fcb007d8bc21" name="Changes" comment="Refactored console calculator with localization on Maven.">
+      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/txtfiles/Report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/txtfiles/Vars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/txtfiles/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/smirnov/constants/Wordings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/smirnov/constants/Wordings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +30,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Java/Anything/calculatorMavenAndRefactored/src/main/java/by/smirnov/language"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/Anything/calculatorMavenAndRefactored/src/main/java/by/smirnov/language&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\Anything\calculatorMavenAndRefactored\src\main\java\by\smirnov\language" />
@@ -112,8 +82,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660123769243</updated>
-      <workItem from="1660123772216" duration="4004000" />
+      <workItem from="1660123772216" duration="6534000" />
+      <workItem from="1660639381839" duration="852000" />
+      <workItem from="1660683519308" duration="649000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactored console calculator with localization on Maven.">
+      <created>1660128127284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660128127284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactored console calculator with localization on Maven." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored console calculator with localization on Maven." />
   </component>
 </project>
